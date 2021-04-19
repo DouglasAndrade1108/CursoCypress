@@ -15,6 +15,7 @@ Then(/^não aparecem os campos para preencher o endereço$/, () => {
     cy.get("#CorrespondenciaNumero").should("not.be.visible");
     cy.get("#CorrespondenciaComplemento").should("not.be.visible");
     cy.get("#CorrespondenciaBairro").should("not.be.visible");
+    
 });
 
 
