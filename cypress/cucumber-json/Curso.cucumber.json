@@ -22,7 +22,7 @@
             "name": "visito o site do detran",
             "result": {
               "status": "passed",
-              "duration": 1078000000
+              "duration": 917000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "informo que o endereço de Correspondência é igual ao Residencial",
             "result": {
               "status": "passed",
-              "duration": 366000000
+              "duration": 455000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "não aparecem os campos para preencher o endereço",
             "result": {
               "status": "passed",
-              "duration": 209000000
+              "duration": 162000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "visito o site do detran mg",
             "result": {
               "status": "passed",
-              "duration": 973000000
+              "duration": 1241000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "informo que o endereço de Correspondência não é igual ao Residencial",
             "result": {
               "status": "passed",
-              "duration": 347000000
+              "duration": 329000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "aparecem os campos para preencher o endereço",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 304000000
             }
           }
         ]
