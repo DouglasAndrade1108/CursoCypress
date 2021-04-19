@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Curso",
+    "line": 1,
+    "id": "curso",
+    "tags": [],
+    "uri": "Curso.feature",
+    "elements": [
+      {
+        "id": "curso;endereço-de-correspondência-igual-ao-residencial-sim",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Endereço de Correspondência igual ao Residencial SIM",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "visito o site do detran",
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "informo que o endereço de Correspondência é igual ao Residencial",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "não aparecem os campos para preencher o endereço",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "curso;endereço-de-correspondência-igual-ao-residencial-não",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Endereço de Correspondência igual ao Residencial NÃO",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "visito o site do detran mg",
+            "result": {
+              "status": "passed",
+              "duration": 973000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "informo que o endereço de Correspondência não é igual ao Residencial",
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "aparecem os campos para preencher o endereço",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
